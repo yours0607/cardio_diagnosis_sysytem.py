@@ -1,0 +1,28 @@
+{
+    "feature_extractor_val_accuracy": 86.26262626262626,
+    "classifier_val_accuracy": null,
+    "test_accuracy": 0.844,
+    "roc_auc": 0.920064025610244,
+    "pr_auc": 0.9287997070237394,
+    "confusion_matrix": [
+        [
+            224,
+            31
+        ],
+        [
+            47,
+            198
+        ]
+    ],
+    "individual_accuracies": {
+        "xgb": 0.846,
+        "rf": 0.858,
+        "lgbm": 0.848,
+        "ensemble": 0.856
+    },
+    "classifier_weights": {
+        "xgb": 0.3314785373608903,
+        "rf": 0.3330683624801272,
+        "lgbm": 0.33545310015898255
+    }
+}
