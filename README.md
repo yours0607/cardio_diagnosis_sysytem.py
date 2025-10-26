@@ -1,0 +1,2 @@
+# cardio_diagnosis_sysytem.py
+该模型通过贝叶斯CNN实现鲁棒特征提取并量化不确定性，抵抗肌电干扰与基线漂移；引入自注意力机制聚焦ST段、QRS波群等关键时序片段；融合XGBoost、随机森林（RF）与LightGBM构建集成分类器，通过等权重多数投票提升决策稳定性。
